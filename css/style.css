@@ -123,7 +123,7 @@ li > a{
 .columns{
     padding-top: 25px;
 }
-.columns > p{
+.columns p{
     padding-top: 15px;
 }
 #img1{
@@ -155,7 +155,14 @@ li > a{
 /* --- footer --- */
 #violet-footer{
     height: 60px;
-    background-color: rgb(122, 0, 122);
+    text-align: center;
+    font-size: 20px;
+}
+#violet-footer::after{
+    content: "\2665";
+    color: red;
+    font-size: 30px;
+
 }
 
 
