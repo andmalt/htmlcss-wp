@@ -8,7 +8,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    min-width: 960px;
+    min-width: 1151px;
     min-height: 780px;
     max-width: 2180px;
 }
@@ -119,6 +119,12 @@ li > a{
     height: 100%;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.3);
+}
+.columns{
+    padding-top: 25px;
+}
+.columns > p{
+    padding-top: 15px;
 }
 #img1{
     width: 100%;
